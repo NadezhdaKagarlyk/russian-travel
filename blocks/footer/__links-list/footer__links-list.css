@@ -1,0 +1,4 @@
+.footer__links-list {
+    flex-direction: column;
+    padding-left: 16px;
+  }

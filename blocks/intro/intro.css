@@ -1,4 +1,35 @@
+@import url(../intro/__list/intro__list.css);
+@import url(../intro/__text/intro__text.css);
+@import url(../intro/__title/intro__title.css);
 .intro {
+  max-width: 984px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-bottom: 92px;
+
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 88px;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .intro {
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 64px;
   }
+
+}

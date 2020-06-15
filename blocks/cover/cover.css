@@ -2,5 +2,20 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
 .cover {
+  max-width: 1184px;
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
     min-height: 200px;
   }
+}

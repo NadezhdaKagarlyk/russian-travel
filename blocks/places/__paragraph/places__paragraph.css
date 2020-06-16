@@ -2,7 +2,7 @@
   margin: 0;
   padding-bottom: 24px;
   font-size: 18px;
-  line-height: 1.66;
+  line-height: 1.67;
 }
 @media screen and (max-width: 1024px) {
   .places__paragraph {
@@ -18,5 +18,11 @@
 @media screen and (max-width: 320px) {
   .places__paragraph {
     padding: 0 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .places__paragraph:first-of-type {
+    padding-bottom: 24px;
+
   }
 }

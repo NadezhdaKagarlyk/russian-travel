@@ -3,6 +3,9 @@
 @import url(./__list/photo-grid__list.css);
 .photo-grid {
   margin-bottom: 92px;
+  min-width: 320px;
+  max-width: 1184px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid {
@@ -17,7 +20,7 @@
 }
 @media screen and (max-width: 320px) {
   .photo-grid {
-    padding: 0 16px;
+    padding: 0;
     margin-bottom: 64px;
   }
 }

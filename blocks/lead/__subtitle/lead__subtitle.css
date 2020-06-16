@@ -5,6 +5,7 @@
   margin: 0 auto;
   font-weight: 400;
   max-width: 540px;
+  padding-bottom: 64px;
 }
 @media screen and (max-width: 1024px) {
   .lead__subtitle {

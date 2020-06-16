@@ -1,8 +1,4 @@
-@import url(../__list/_weight/intro__list_weight_bold.css);
-@import url(../__list/_weight/intro__list_weight_normal.css);
 .intro__list {
-  font-size: 12px;
-  line-height: 1.5;
-  margin: 0;
-  font-style: normal;
+  list-style: none;
+  padding: 0;
 }

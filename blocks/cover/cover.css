@@ -3,6 +3,9 @@
 @import url(./__title/cover__title.css);
 .cover {
   max-width: 1184px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .cover {

@@ -8,10 +8,11 @@
 
 @media screen and (max-width: 1024px) {
   .places__item {
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .places__item {
     margin-bottom: 72px;
     gap: 48px 28px;

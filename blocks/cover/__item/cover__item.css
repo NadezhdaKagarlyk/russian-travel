@@ -1,7 +1,7 @@
 .cover__item {
   color: #fff;
   text-decoration: none;
-  background: url("../../../images/cover-trains.jpg") no-repeat;
+  background: url("../../../images/cover-trains.jpg") no-repeat center;
   display: block;
   position: relative;
   z-index: 0;
@@ -24,4 +24,19 @@
 }
 .cover__item:hover::before {
   opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+  .cover__item {
+    padding: 195px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__item {
+    padding: 115px 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__item {
+    padding: 33px 0;
+  }
 }

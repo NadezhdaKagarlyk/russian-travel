@@ -12,3 +12,5 @@
 flexbox
 grid
 структурв БЭМ
+
+GitHub-Pages https://nadezhdakagarlyk.github.io/russian-travel/

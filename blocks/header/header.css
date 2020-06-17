@@ -2,6 +2,7 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 @import url(./__lang-list/header__lang-list.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-item/header__lang-item.css);
 
 .header {
   display: flex;
@@ -9,7 +10,6 @@
   align-items: center;
   padding: 28px 0 56px;
   flex-shrink: 0;
-  min-width: 320px;
   max-width: 1184px;
   margin: 0 auto;
 }
